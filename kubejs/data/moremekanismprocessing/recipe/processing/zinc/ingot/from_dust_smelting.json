@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "moremekanismprocessing:processing_level",
+      "materialType": "zinc",
+      "requireLevel": 2
+    },
+    {
+      "type": "moremekanismprocessing:cooking_dust_into_ingot",
+      "materialType": "zinc"
+    }
+  ],
+  "type": "moremekanismprocessing:tag_smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "moremekanismprocessing:zinc_ingot",
+  "ingredient": {
+    "tag": "c:dusts/zinc"
+  },
+  "result": {
+    "count": 1,
+    "tag": "c:ingots/zinc"
+  }
+}

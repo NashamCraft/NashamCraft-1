@@ -1,0 +1,1 @@
+{"type":"mekanism:nucleosynthesizing","chemical_input":{"amount":1,"chemical":"mekanism:antimatter"},"duration":500,"item_input":{"count":1,"item":"minecraft:prismarine_shard"},"output":{"count":4,"id":"rftoolsbase:dimensionalshard"},"per_tick_usage":false}

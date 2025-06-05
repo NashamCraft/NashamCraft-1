@@ -1,0 +1,32 @@
+{
+    "entity": "irons_spellbooks:citadel_keeper",
+    "variants": [],
+    "name": {
+        "translate": "entity.irons_spellbooks.citadel_keeper",
+        "color": "#4f3c3e"
+    },
+    "display": {},
+    "sim_cost": 8192000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.citadel_keeper",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:cinder_essence",
+            "count": 2
+        },
+        {
+            "id": "minecraft:netherite_scrap",
+            "count": 4
+        },
+        {
+            "id": "irons_spellbooks:keeper_flamberge",
+            "count": 1
+        }
+    ]
+}

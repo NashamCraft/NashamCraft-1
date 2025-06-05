@@ -1,0 +1,41 @@
+{
+    "entity": "minecraft:stray",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.stray",
+        "color": "#618291"
+    },
+    "display": {},
+    "sim_cost": 1024000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.stray",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:arrow",
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "id": "irons_spellbooks:frozen_bone",
+            "optional": true,
+            "count": 16
+        },
+        {
+            "id": "minecraft:skeleton_skull",
+            "count": 4
+        },
+        {
+            "id": "reliquary:rib_bone",
+            "optional": true,
+            "count": 2
+        }
+    ]
+}

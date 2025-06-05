@@ -1,0 +1,100 @@
+{
+    "parent": "restrictedportals:root",
+    "criteria": {
+      "killed_netherite_monstrosity": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:netherite_monstrosity"
+          }
+        }
+      },
+      "killed_ignis": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:ignis"
+          }
+        }
+      },
+      "killed_the_harbinger": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:the_harbinger"
+          }
+        }
+      },
+      "killed_the_leviathan": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:the_leviathan"
+          }
+        }
+      },
+      "killed_ancient_remnant": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:ancient_remnant"
+          }
+        }
+      },
+      "killed_maledictus": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:maledictus"
+          }
+        }
+      },
+      "killed_warden": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:warden"
+          }
+        }
+      },
+      "killed_wither": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:wither"
+          }
+        }
+      },
+      "killed_dead_king": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "irons_spellbooks:dead_king"
+          }
+        }
+      },
+      "killed_fire_boss": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "irons_spellbooks:fire_boss"
+          }
+        }
+      }
+    },
+    "requirements": [
+      ["killed_netherite_monstrosity"],
+      ["killed_ignis"],
+      ["killed_the_harbinger"],
+      ["killed_the_leviathan"],
+      ["killed_ancient_remnant"],
+      ["killed_maledictus"],
+      ["killed_warden"],
+      ["killed_wither"],
+      ["killed_dead_king"],
+      ["killed_fire_boss"]
+    ],
+    "rewards": {
+        "function": "kubejs:end"
+    }
+}

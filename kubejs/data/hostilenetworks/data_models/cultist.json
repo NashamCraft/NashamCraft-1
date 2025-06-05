@@ -1,0 +1,35 @@
+{
+    "entity": "irons_spellbooks:cultist",
+    "variants": [],
+    "name": {
+        "translate": "entity.irons_spellbooks.cultist",
+        "color": "#611837"
+    },
+    "display": {},
+    "sim_cost": 8192000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cultist",
+    "fabricator_drops": [
+        {
+            "id": "irons_spellbooks:epic_ink",
+            "count": 1
+        },
+        {
+            "id": "irons_spellbooks:arcane_essence",
+            "count": 16
+        },
+        {
+            "id": "irons_spellbooks:blood_rune",
+            "count": 4
+        }
+    ],
+    "data_per_kill": {
+        "faulty": 2
+    }
+}

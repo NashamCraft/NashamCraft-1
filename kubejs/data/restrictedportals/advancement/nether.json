@@ -1,0 +1,16 @@
+{
+    "parent":"restrictedportals:root",
+    "criteria":{
+        "nether":{
+            "trigger":"minecraft:using_item",
+            "conditions":{
+                "item":{
+                    "items": "kubejs:nether_seal"                  
+                }
+            }
+        }
+    },
+    "rewards": {
+    "function": "kubejs:nether"
+    }
+}

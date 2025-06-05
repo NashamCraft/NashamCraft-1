@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    " E ",
+    "OOO"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "O": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "E": {
+      "item": "kubejs:echo_crystal"
+    }
+  },
+  "result": {
+    "id": "irons_spellbooks:scroll_forge",
+    "count": 1
+  }
+}
