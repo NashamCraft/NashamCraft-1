@@ -6,12 +6,12 @@
             {
                 "type": "item",
                 "name": "endrem:corrupted_eye",
-                "weight": 24,
+                "weight": 8,
                 "functions": [{ "function": "set_count", "count": 1 }]
             },
             {
                 "type": "empty",
-                "weight": 76
+                "weight": 92
             }
         ]
     }]
