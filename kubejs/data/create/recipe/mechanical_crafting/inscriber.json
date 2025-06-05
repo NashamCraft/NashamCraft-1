@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:sticky_piston"
+    },
+    "D": {
+      "item": "kubejs:dragonsteel_ingot"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "D I",
+    "IPI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ae2:inscriber"
+  },
+  "show_notification": false
+}

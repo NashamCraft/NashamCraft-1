@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "D": {
+      "item": "kubejs:dragonsteel_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "IFI",
+    "RDR",
+    "IFI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:metallurgic_infuser"
+  },
+  "show_notification": false
+}
