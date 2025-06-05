@@ -1,0 +1,23 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+com.mojang.realmsclient.RealmsMainScreen {
+}
+
+net.neoforged.neoforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.options.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.options.SkinCustomizationScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
