@@ -1,2 +1,2 @@
-# NashamCraft-1
-NashamCraft Modpack Repository
+# NashamCraft
+This is the Repository for NashamCraft Modpack.
