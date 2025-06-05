@@ -1,0 +1,31 @@
+
+ServerEvents.recipes(event => {   
+    event.recipes.create.mechanical_crafting('ae2:inscriber', [
+        'IPI',
+        'D I',
+        'IPI'
+    ],{
+        I: 'minecraft:iron_ingot',
+        P: 'minecraft:sticky_piston',
+        D: 'kubejs:dragonsteel_ingot',
+    })
+
+    event.recipes.create.mechanical_crafting('minecraft:diamond_hoe', [
+        'DDD',
+        'DDD',
+        'DDD'
+    ],{
+        D: 'minecraft:iron_ingot'
+    })
+
+    event.recipes.create.mechanical_crafting('mekanism:metallurgic_infuser', [
+        'IFI',
+        'RDR',
+        'IFI'
+    ],{
+        I: 'minecraft:iron_ingot',
+        F: 'minecraft:furnace',
+        R: 'minecraft:redstone',
+        D: 'kubejs:dragonsteel_ingot',
+    })
+})

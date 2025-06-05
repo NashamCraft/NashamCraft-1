@@ -1,0 +1,22 @@
+{
+    "biome.nullscape.crystal_peaks": "Crystal Peaks",
+    "biome.nullscape.shadowlands": "Shadowlands",
+    "biome.nullscape.void_barrens": "Void Barrens",
+
+    "biome.incendium.ash_barrens": "Ash Barrens",
+    "biome.incendium.infernal_dunes": "Infernal Dunes",
+    "biome.incendium.inverted_forest": "Inverted Forest",
+    "biome.incendium.quartz_flats": "Quartz Flats",
+    "biome.incendium.toxic_heap": "Toxic Heap",
+    "biome.incendium.volcanic_deltas": "Volcanic Deltas",
+    "biome.incendium.weeping_valley": "Weeping Valley",
+    "biome.incendium.withered_forest": "Withered Forest",
+
+    "entity.minecraft.villager.ae2:fluix_researcher": "Fluix Researcher",
+    "key.ae2.wireless_pattern_access_terminal": "Open Wireless Pattern Access Terminal",
+
+    "lootbeams.vanilla_rarity.irons_spellbooks_rarity_cinderous": "Cinderous",
+
+    "block.valhelsia_structures.unlit_torch": "Unlit Torch",
+    "block.valhelsia_structures.unlit_soul_torch": "Unlit Soul Torch"
+}
