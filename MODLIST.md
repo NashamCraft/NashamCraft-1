@@ -1,4 +1,5 @@
-- [EMF] Entity Model Features [Fabric & Forge] (by Traben)
+## Modlist:
+-  [EMF] Entity Model Features [Fabric & Forge] (by Traben)
 - [ETF] Entity Texture Features - [Fabric & Forge] (by Traben)
 - Advanced Peripherals (by srrendi)
 - AdvancedAE (by pedroksl)
