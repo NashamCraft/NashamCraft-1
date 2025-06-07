@@ -5,7 +5,7 @@
 	},
 	"stat_changes": [{
 		"type": "apothic_spawners:min_delay",
-		"value": -5,
+		"value": -1,
 		"min": 100
 	}]
 }

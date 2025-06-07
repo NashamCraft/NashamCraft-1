@@ -1,0 +1,32 @@
+{
+    "parent": "apothic_spawners:modifier",
+    "display": {
+        "icon": {
+            "id": "kubejs:echo_crystal"
+        },
+        "title": {
+            "translate": "advancements.apothic_spawners.spawncount"
+        },
+        "description": {
+            "translate": "advancements.apothic_spawners.spawncount.desc"
+        },
+        "frame": "goal"
+    },
+    "criteria": {
+        "modifier": {
+            "trigger": "apothic_spawners:spawner_modifier",
+            "conditions": {
+                "modifier": "spawn_count",
+                "spawn_count": {
+                    "min": 8
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "modifier"
+        ]
+    ],
+    "sends_telemetry_event": true
+}
