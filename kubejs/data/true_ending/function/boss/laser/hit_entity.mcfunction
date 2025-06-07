@@ -10,4 +10,4 @@ particle flash ~ ~1 ~ 0 0 0 .25 6 force @a[distance=..128]
 
 particle dragon_breath ~ ~1 ~ 0 0 0 .3 10 normal
 
-damage @s 24 true_ending:mob_attack_pierce_shield by @e[sort=nearest,limit=1,type=ender_dragon]
+damage @s 140 true_ending:mob_attack_pierce_shield by @e[sort=nearest,limit=1,type=ender_dragon]
