@@ -4,7 +4,7 @@
         "translate": "entity.minecraft.breeze",
         "color": "#3D4167"
     },
-    "sim_cost": 1024000,
+    "sim_cost": 512000,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },

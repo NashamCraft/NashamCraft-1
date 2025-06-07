@@ -15,7 +15,7 @@
             ]
         }
     },
-    "sim_cost": 512000,
+    "sim_cost": 256000,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },

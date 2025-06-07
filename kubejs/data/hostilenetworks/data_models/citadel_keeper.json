@@ -6,7 +6,7 @@
         "color": "#4f3c3e"
     },
     "display": {},
-    "sim_cost": 8192000,
+    "sim_cost": 4096000,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },

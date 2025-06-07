@@ -9,7 +9,7 @@
         "y_offset": 0.5,
         "scale": 0.5
     },
-    "sim_cost": 4096000,
+    "sim_cost": 2048000,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
