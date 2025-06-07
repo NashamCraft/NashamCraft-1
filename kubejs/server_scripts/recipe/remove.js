@@ -7,6 +7,8 @@ ServerEvents.recipes(event => {
         'storagedrawers:gold_storage_upgrade',
         'storagedrawers:iron_storage_upgrade',
         'storagedrawers:obsidian_storage_upgrade',
+
+        'mffs:steel_ingot',
         
     
         'buildinggadgets2:gadget_exchanging',
@@ -94,6 +96,8 @@ ServerEvents.recipes(event => {
     [
         // Rftools
 
+
+
         'rftoolsutility:advanced_charged_porter',
         'rftoolsutility:charged_porter',
         'rftoolsutility:teleport_probe',
@@ -130,15 +134,12 @@ ServerEvents.recipes(event => {
         'apothic_enchanting:ender_lead',
         
         // More Industrial Foregoing Addons
-        'mifa:efficiency_addon_5',
         'mifa:efficiency_addon_6',
         'mifa:efficiency_addon_7',
         'mifa:efficiency_addon_8',
-        'mifa:processing_addon_5',
         'mifa:processing_addon_6',
         'mifa:processing_addon_7',
         'mifa:processing_addon_8',
-        'mifa:speed_addon_5',
         'mifa:speed_addon_6',
         'mifa:speed_addon_7',
         'mifa:speed_addon_8',
@@ -266,8 +267,24 @@ ServerEvents.recipes(event => {
         'xycraft_machines:stake',
         'xycraft_machines:valve',
         'xycraft_machines:void_container',
-        'xycraft_machines:water_block'
+        'xycraft_machines:water_block',
 
+        'ars_nouveau:ritual_containment',
+
+        //CC
+        'computercraft:computer_normal',
+        'computercraft:turtle_normal',
+        'computercraft:pocket_computer_normal',
+        'computercraft:computer_advanced',
+        'computercraft:turtle_advanced',
+        'computercraft:pocket_computer_advanced',
+        'computercraft:disk_drive',
+        'computercraft:printer',
+        'computercraft:speaker',
+        'computercraft:wireless_modem_advanced',
+        'computercraft:wireless_modem_normal',
+        'computercraft:monitor_normal',
+        'computercraft:monitor_advanced'
         
 
     ].forEach((itemID) => event.remove({output: itemID}));
