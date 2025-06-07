@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "tag": "c:logs/archwood"
+  },
+  "result": {
+    "id": "craftingstation:crafting_station_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}
