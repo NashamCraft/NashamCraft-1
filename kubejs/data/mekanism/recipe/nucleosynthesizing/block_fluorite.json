@@ -1,0 +1,1 @@
+{"type":"mekanism:nucleosynthesizing","chemical_input":{"amount":1,"chemical":"mekanism:antimatter"},"duration":500,"item_input":{"count":1,"item":"minecraft:white_wool"},"output":{"count":1,"id":"mekanism:block_fluorite"},"per_tick_usage":false}
