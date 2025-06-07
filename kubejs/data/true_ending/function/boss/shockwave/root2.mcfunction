@@ -6,7 +6,7 @@ execute at @s align y positioned ~ ~.2 ~ unless block ~ ~ ~ #true_ending:permeab
 execute at @s run particle dust{color:[1.000,0.075,0.976],scale:1.2} ^ ^ ^ .5 .05 .5 0 1 force @a[distance=..128]
 execute at @s run particle electric_spark ^ ^ ^ .5 .05 .5 0 2 force @a[distance=..128]
 
-execute positioned ~ ~-1 ~ as @e[distance=..1.4,type=!#true_ending:misc] run damage @s 16 true_ending:mob_attack_pierce_shield by @e[type=ender_dragon,limit=1,sort=nearest]
+execute positioned ~ ~-1 ~ as @e[distance=..1.4,type=!#true_ending:misc] run damage @s 80 true_ending:mob_attack_pierce_shield by @e[type=ender_dragon,limit=1,sort=nearest]
 execute if score pearlbreaking trueEnding_settings matches 1 positioned ~ ~ ~ as @e[distance=..1.4,type=item,nbt={Item:{id:"minecraft:ender_pearl"}}] at @s run function true_ending:other/disappear_ender
 
 
