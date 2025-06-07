@@ -1,1 +1,1 @@
-{"type":"mekanism:nucleosynthesizing","chemical_input":{"amount":1,"chemical":"mekanism:antimatter"},"duration":500,"item_input":{"count":1,"item":"minecraft:clay_ball"},"output":{"count":8,"id":"hostilenetworks:prediction_matrix"},"per_tick_usage":false}
+{"type":"mekanism:nucleosynthesizing","chemical_input":{"amount":1,"chemical":"mekanism:antimatter"},"duration":500,"item_input":{"count":1,"item":"minecraft:clay_ball"},"output":{"count":16,"id":"hostilenetworks:prediction_matrix"},"per_tick_usage":false}
