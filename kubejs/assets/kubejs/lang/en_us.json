@@ -17,6 +17,13 @@
 
     "lootbeams.vanilla_rarity.irons_spellbooks_rarity_cinderous": "Cinderous",
 
+    "travelerstitles.jamd.end": "End Mining",
+    "travelerstitles.jamd.mining": "Overworld Mining",
+    "travelerstitles.jamd.nether": "Nether Mining",
+    "travelerstitles.ae2.spatial_storage": "Spatial Storage",
+
     "block.valhelsia_structures.unlit_torch": "Unlit Torch",
-    "block.valhelsia_structures.unlit_soul_torch": "Unlit Soul Torch"
+    "block.valhelsia_structures.unlit_soul_torch": "Unlit Soul Torch",
+
+    "entity.minecraft.villager.advancedperipherals:computer_scientist": "Computer Scientist"
 }
