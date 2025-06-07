@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "mifa:speed_addon_5"
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:obsidians/crying"
+    },
+    {
+      "tag": "c:nether_stars"
+    },
+    {
+      "tag": "c:glass_panes/colorless"
+    },
+    {
+      "tag": "c:glass_panes/colorless"
+    },
+    {
+      "tag": "c:gears/netherite"
+    },
+    {
+      "item": "mifa:speed_addon_4"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": {
+    "amount": 5000,
+    "fluid": "industrialforegoing:ether_gas"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Speed": 6.0
+      }
+    },
+    "count": 1,
+    "id": "mifa:speed_addon_5"
+  },
+  "processingTime": 1000
+}
