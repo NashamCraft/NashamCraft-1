@@ -6,12 +6,12 @@
             {
                 "type": "item",
                 "name": "endrem:old_eye",
-                "weight": 12,
+                "weight": 20,
                 "functions": [{ "function": "set_count", "count": 1 }]
             },
             {
                 "type": "empty",
-                "weight": 88
+                "weight": 80
             }
         ]
     }]
