@@ -1,9 +1,30 @@
 
 StartupEvents.registry('item', event => {
-    /*event.create('universal_press')
-    .texture('kubejs:item/universal_press')
+
+    event.create('respawn_ticket')
+    .texture('kubejs:item/respawn_ticket')
     .maxStackSize(64)
-    .displayName('Universal Press');  */
+    .rarity('rare')
+    .glow(true)
+    .displayName('Structure Respawn Ticket')
+    .tooltip('Respawns the closest structure')
+    .useAnimation('bow')
+    .useDuration(itemstack => 40)
+    .use((level, player, hand) => true)
+    .finishUsing((itemstack, level, entity) => {
+        if (entity.server) {
+            entity.server.runCommandSilent(`/execute as ${entity.username} at @s run function kubejs:respawn`)
+        }
+        itemstack.shrink(1)
+        return itemstack
+    })
+
+    event.create('water_power_cell')
+    .texture('kubejs:item/water_power_cell')
+    .maxStackSize(64)
+    .rarity('epic')
+    .displayName('Water Power Cell')
+
 
     event.create('dragonsteel_ingot')
     .texture('kubejs:item/dragonsteel_ingot')
@@ -52,7 +73,7 @@ StartupEvents.registry('item', event => {
 
     event. create ('echo_crystal')
     .texture('kubejs:item/echo_crystal')
-    .maxStackSize(1)
+    .maxStackSize(64)
     .rarity('common')
     .displayName('Echo Crystal')
     
