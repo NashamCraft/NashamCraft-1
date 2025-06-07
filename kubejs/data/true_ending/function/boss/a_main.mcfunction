@@ -61,10 +61,10 @@ execute if score crystalcount trueEnding_settings matches 1 positioned 0 65 0 if
 #######################################################################
 
 #dive chance
-execute if score 20tick trueEnding_clock matches 1 as @s[tag=!trueEnding_inattack] if predicate true_ending:chance/6_percent run scoreboard players set @s trueEnding_bosstime 1001
+execute if score 20tick trueEnding_clock matches 1 as @s[tag=!trueEnding_inattack] if predicate true_ending:chance/10_percent run scoreboard players set @s trueEnding_bosstime 1001
 
 #ultra fireball chance
-execute if score 1min trueEnding_clock matches 1 if entity @p[distance=..128,gamemode=!spectator,gamemode=!creative] if score @s[tag=!trueEnding_inattack,predicate=!true_ending:condition/dragonphase_perched] trueEnding_health_percent matches ..666 if predicate true_ending:chance/20_percent run scoreboard players set @s trueEnding_bosstime 20
+execute if score 20tick trueEnding_clock matches 1 if entity @p[distance=..128,gamemode=!spectator,gamemode=!creative] if score @s[tag=!trueEnding_inattack,predicate=!true_ending:condition/dragonphase_perched] trueEnding_health_percent matches ..666 if predicate true_ending:chance/6_percent run scoreboard players set @s trueEnding_bosstime 20
 
 #laser
 execute if score 20tick trueEnding_clock matches 1 unless entity @e[distance=..128,type=area_effect_cloud,tag=trueEnding_dragonbreath_quarter] if score @s[tag=!trueEnding_inattack] trueEnding_health_percent matches ..333 if predicate true_ending:chance/20_percent run scoreboard players set @s trueEnding_bosstime 2001
