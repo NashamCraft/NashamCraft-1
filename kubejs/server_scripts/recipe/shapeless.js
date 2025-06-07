@@ -14,16 +14,34 @@ ServerEvents.recipes(event =>{
         '2x minecraft:iron_ingot'
     ])
 
-    /*event.shapeless('kubejs:universal_press', [ 
-        'ae2:logic_processor_press',
-        'ae2:engineering_processor_press',
-        'ae2:calculation_processor_press',
-        'ae2:silicon_press',
-        'extendedae:concurrent_processor_press',
-        'advanced_ae:quantum_processor_press',
-        'appflux:energy_processor_press',
-        'advanced_ae:quantum_alloy_block'
-    ])*/
+    event.shapeless('3x minecraft:book', [ 
+        '#c:bookshelves'
+    ])
+
+    event.shapeless('4x minecraft:glowstone_dust', [ 
+        'minecraft:glowstone'
+    ])
+
+    event.shapeless('4x minecraft:clay_ball', [ 
+        'minecraft:clay'
+    ])
+
+    event.shapeless('4x minecraft:snowball', [ 
+        'minecraft:snow_block'
+    ])
+
+    event.shapeless('ars_nouveau:ritual_containment', [ 
+        'ars_nouveau:purple_archwood_log',
+        'ars_nouveau:manipulation_essence',
+        'minecraft:dragon_breath'
+    ])
+
+    event.shapeless('kubejs:respawn_ticket', [ 
+        'minecraft:paper',
+        'minecraft:feather',
+        'irons_spellbooks:legendary_ink',
+        'minecraft:end_crystal'
+    ])
 
 
 })

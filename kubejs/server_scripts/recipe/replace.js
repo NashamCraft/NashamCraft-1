@@ -47,6 +47,7 @@ ServerEvents.recipes(event => {
   replaceInputID('torchmaster:megatorch','minecraft:diamond', 'minecraft:netherite_scrap')
 
   replaceInputID('fluxnetworks:flux_core','minecraft:ender_eye', 'mekanism:pellet_plutonium')
+  replaceInputID('fluxnetworks:flux_controller','fluxnetworks:flux_core', 'fluxnetworks:flux_dust')
 
   replaceInputID('refurbished_furniture:workbench','minecraft:redstone_block', 'mekanism:alloy_infused')
   replaceInputID('refurbished_furniture:light_electricity_generator','minecraft:redstone_block', 'mekanism:alloy_infused')
@@ -57,13 +58,26 @@ ServerEvents.recipes(event => {
   replaceInputID('shrink:shrinking_device', 'minecraft:iron_ingot', 'mekanism:hdpe_sheet')
   replaceInputID('shrink:shrinking_device', 'minecraft:ender_pearl', 'mekanism:elite_control_circuit')
 
+  replaceInputID('createaddition:crafting/modular_accumulator', 'createaddition:electrum_wire', 'createaddition:gold_wire')
+
   event.replaceInput(
     { mod: 'tempad' }, // Filter: targets recipes from 'some_mod'
     'minecraft:ender_pearl', // Item to replace
     'mekanism:teleportation_core' // Replacement item
   )
 
+
   replaceInputID('tempad:tempad', 'minecraft:quartz', 'mekanism:pellet_antimatter')
+  replaceInputID('tempad:tempad', 'mekanism:teleportation_core', 'mekanism:portable_teleporter')
   replaceInputID('tempad:time_steel_shaped', 'minecraft:iron_ingot', 'mekanism:pellet_plutonium')
+
+  replaceInputID('mekanism:module_elytra_unit', 'mekanism:pellet_antimatter', 'mekanism:pellet_polonium')
+
+  replaceInputID('computercraft:redstone_relay', 'minecraft:stone', 'create:andesite_alloy')
+  replaceInputID('computercraft:cable', 'minecraft:stone', 'create:andesite_alloy')
+  replaceInputID('computercraft:wired_modem', 'minecraft:stone', 'create:andesite_alloy')
+  
+  replaceInputID('apothic_enchanting:hellshelf', ['minecraft:blaze_rod','minecraft:potion'], 'cataclysm:lava_power_cell')
+  replaceInputID('apothic_enchanting:seashelf', ['minecraft:pufferfish','minecraft:potion'], 'kubejs:water_power_cell')
 
 });
