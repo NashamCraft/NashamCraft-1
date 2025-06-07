@@ -1,4 +1,4 @@
-execute if predicate true_ending:chance/10_percent run summon area_effect_cloud ~ ~.2 ~ {Particle:{type:"dragon_breath"},ReapplicationDelay:20,Radius:4f,RadiusPerTick:0f,Duration:3600,potion_contents:{custom_effects:[{id:"minecraft:instant_damage",amplifier:0,duration:1}]},Tags:["trueEnding_dragonbreath","trueEnding_dragonbreath_temp","trueEnding_dragonbreath_quarter"]}
+execute if predicate true_ending:chance/50_percent run summon area_effect_cloud ~ ~.2 ~ {Particle:{type:"dragon_breath"},ReapplicationDelay:10,Radius:6f,RadiusPerTick:0f,Duration:2400,potion_contents:{custom_effects:[{id:"minecraft:instant_damage",amplifier:3,duration:1}]},Tags:["trueEnding_dragonbreath","trueEnding_dragonbreath_temp","trueEnding_dragonbreath_quarter"]}
 
 
 execute positioned ~ ~.2 ~ run data modify entity @e[sort=nearest,limit=1,type=area_effect_cloud,tag=trueEnding_dragonbreath] Owner set from entity @e[type=ender_dragon,sort=nearest,limit=1] UUID
