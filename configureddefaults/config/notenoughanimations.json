@@ -125,5 +125,5 @@
   "enableInWorldBookRendering": false,
   "disableLegSmoothing": false,
   "bowAnimation": "CUSTOM_V1",
-  "burningAnimation": true
+  "burningAnimation": false
 }
