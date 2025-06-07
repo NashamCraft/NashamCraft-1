@@ -31,7 +31,7 @@
 		#Modify clouds height perfect for a adaptative world experience
 		# Default: 192
 		# Range: 0 ~ 512
-		cloudsHeight = 192
+		cloudsHeight = 256
 		#Chunks fade in speed
 		#This option doesn't affect performance, just changes speed
 		#Allowed Values: OFF, FAST, SLOW
@@ -119,7 +119,7 @@
 				#Value is raw
 				# Default: 32
 				# Range: 0 ~ 512
-				cullingMaxDistanceY = 32
+				cullingMaxDistanceY = 64
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:bat" - Ignores bats only
