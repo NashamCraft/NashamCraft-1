@@ -104,7 +104,6 @@ b = 47
 # Alpha component, 0 to 255
 a = 255
 
-
 [customColorSetting.color_override_by_name."irons_spellbooks:betrayer_signet"]
 # Red component, 0 to 255
 r = 240
@@ -112,6 +111,16 @@ r = 240
 g = 93
 # Blue component, 0 to 255
 b = 47
+# Alpha component, 0 to 255
+a = 255
+
+[customColorSetting.color_override_by_name."mekanism:pellet_antimatter"]
+# Red component, 0 to 255
+r = 162
+# Green component, 0 to 255
+g = 95
+# Blue component, 0 to 255
+b = 214
 # Alpha component, 0 to 255
 a = 255
 
