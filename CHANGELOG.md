@@ -2,7 +2,6 @@
 
 <details>
 <summary><h2>1.1.0b</h2></summary>
-
 <details>
 <summary><h3>Recipe Changes</h3></summary>
 
@@ -23,7 +22,6 @@
 - Yellowcake uranium yield has been doubled  
 - ComputerCraft recipes have been changed to align with Create  
 </details>
-
 <details>
 <summary><h3>Recipe Fixes</h3></summary>
 
@@ -32,7 +30,6 @@
 - Crafting flux controller no longer leaves 3 flux cores  
 - End and Husbandry Automata Core recipes have been added  
 </details>
-
 <details>
 <summary><h3>Changes</h3></summary>
 
@@ -67,7 +64,6 @@
 - Thermal evaporation tower max production has been quadrupled  
 - The word "spell" in Ars Nouveau has been renamed to "Incantation"  
 </details>
-
 <details>
 <summary><h3>Fixes</h3></summary>
 
@@ -83,7 +79,6 @@
 - Translation key has been added for CC computer scientist  
 - Traveler's title translations for a few dimensions have been added  
 </details>
-
 <details>
 <summary><h3>Mods Added</h3></summary>
 
@@ -97,7 +92,6 @@
 - Particular  
 - Shoulder Surfing  
 </details>
-
 <details>
 <summary><h3>Mods Updated</h3></summary>
 
@@ -152,14 +146,12 @@
 - XaeroPlus  
 - Xnet  
 </details>
-
 <details>
 <summary><h3>Resource Packs Added</h3></summary>
 
 - Minecolonies Refreshed  
 - Undopia 3D Pointed Dripstone  
 </details>
-
 <details>
 <summary><h3>Known Issues</h3></summary>
 
