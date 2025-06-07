@@ -20,7 +20,7 @@
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
-	ArmorDamage = false
+	ArmorDamage = true
 	#Hide if durability is above this (in percentage):
 	# Default: 100
 	# Range: 0 ~ 100
@@ -32,7 +32,7 @@
 	#Show/Hide armor
 	showOff = false
 	#Show/Hide armor
-	showArrows = true
+	showArrows = false
 	#Show/Hide armor
 	showInv = false
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
@@ -41,9 +41,9 @@
 	#Show item durability bar
 	armBars = true
 	#Move all items at once or each one
-	moveAll = true
+	moveAll = false
 	#Show/Hide empty slot icon
-	showEmpty = true
+	showEmpty = false
 	#Show overall count of items in main/off hand
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
@@ -51,7 +51,7 @@
 	# Range: 50 ~ 150
 	armScale = 100
 	#Show Armor HUD when debug menu is open
-	armWithDebug = true
+	armWithDebug = false
 	#Show arrows count when no weapon in your hands
 	showArrowsWithoutWeapon = false
 
@@ -109,7 +109,7 @@
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 0
+	xArmPos = -146
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999
@@ -131,67 +131,67 @@
 	#Helmet position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
-	helmPosX = 103
+	helmPosX = -102
 	#Helmet position (Y)
 	# Default: 54
 	# Range: -9999 ~ 9999
-	helmPosY = 54
+	helmPosY = 35
 	#Chestplate position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
-	chestPosX = 103
+	chestPosX = -120
 	#Chestplate position (Y)
 	# Default: 37
 	# Range: -9999 ~ 9999
-	chestPosY = 37
+	chestPosY = 35
 	#Leggings position (X)
 	# Default: -103
 	# Range: -9999 ~ 9999
-	legPosX = -103
+	legPosX = -102
 	#Leggings position (Y)
 	# Default: 54
 	# Range: -9999 ~ 9999
-	legPosY = 54
+	legPosY = 17
 	#Boots position (X)
 	# Default: -103
 	# Range: -9999 ~ 9999
-	bootPosX = -103
+	bootPosX = -120
 	#Boots position (Y)
 	# Default: 37
 	# Range: -9999 ~ 9999
-	bootPosY = 37
+	bootPosY = 17
 	#MainHand position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
-	mainPosX = 103
+	mainPosX = -111
 	#MainHand position (Y)
 	# Default: 71
 	# Range: -9999 ~ 9999
-	mainPosY = 71
+	mainPosY = 55
 	#OffHand position (X)
 	# Default: -103
 	# Range: -9999 ~ 9999
-	offPosX = -103
+	offPosX = 111
 	#OffHand position (Y)
 	# Default: 71
 	# Range: -9999 ~ 9999
-	offPosY = 71
+	offPosY = 19
 	#Arrows position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
-	arrPosX = 103
+	arrPosX = 111
 	#Arrows position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	arrPosY = 20
+	arrPosY = 37
 	#InvIcon position (X)
 	# Default: -103
 	# Range: -9999 ~ 9999
-	invPosX = -103
+	invPosX = 111
 	#InvIcon position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	invPosY = 20
+	invPosY = 55
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	helmHal = "MIDDLE"
