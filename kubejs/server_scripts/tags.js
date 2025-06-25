@@ -1,10 +1,10 @@
-/* Listen to item tag event
+
 ServerEvents.tags('item', event => {
 
-    event.add('kubejs:mekanism_basic_tier', [
-        'mekanism:basic_smelting_factory'
+    event.add('c:tools/shield', [
+        'cataclysm:black_steel_targe',
+        'cataclysm:azure_sea_shield',
+        'cataclysm:bulwark_of_the_flame'
     ])
 
-
-
-})*/
+})
