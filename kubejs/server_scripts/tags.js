@@ -1,4 +1,3 @@
-
 ServerEvents.tags('item', event => {
 
     event.add('c:tools/shield', [
@@ -6,6 +5,10 @@ ServerEvents.tags('item', event => {
         'cataclysm:azure_sea_shield',
         'cataclysm:bulwark_of_the_flame'
     ])
+
+})
+
+ServerEvents.tags('entity_type', event => {
 
     event.add('c:bosses', [
         "cataclysm:amethyst_crab",
