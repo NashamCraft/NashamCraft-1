@@ -42,7 +42,7 @@ ServerEvents.recipes(event =>{
     ],{
         A: 'cataclysm:cursed_eye',
         D: 'cataclysm:mech_eye',
-        E: 'minecraft:recovery_compass',
+        E: 'minecraft:compass',
         F: 'cataclysm:abyss_eye',
         H: 'cataclysm:desert_eye'
     })
@@ -607,7 +607,90 @@ ServerEvents.recipes(event =>{
         '   '
     ],{
         L:'#minecraft:logs'
-    })   
+    })
+    
+    event.shaped('irons_spellbooks:villager_spell_book',[
+        'ELE',
+        'ECE',
+        'EEE'
+    ],{
+        E:'minecraft:emerald_block',
+        C:'irons_spellbooks:chained_book',
+        L:'irons_spellbooks:archevoker_logbook_translated',
+    })
+
+    event.shaped('refurbished_furniture:oak_hedge',[
+        '   ',
+        'LLL',
+        'LLL'
+    ],{
+        L:'minecraft:oak_leaves',
+    })
+
+    event.shaped('refurbished_furniture:spruce_hedge', [
+    '   ',
+    'LLL',
+    'LLL'
+    ], {
+        L: 'minecraft:spruce_leaves',
+    })
+
+    event.shaped('refurbished_furniture:birch_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:birch_leaves',
+    })
+
+    event.shaped('refurbished_furniture:jungle_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:jungle_leaves',
+    })
+
+    event.shaped('refurbished_furniture:acacia_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:acacia_leaves',
+    })
+
+    event.shaped('refurbished_furniture:dark_oak_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:dark_oak_leaves',
+    })
+
+    event.shaped('refurbished_furniture:mangrove_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:mangrove_leaves',
+    })
+
+    event.shaped('refurbished_furniture:cherry_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:cherry_leaves',
+    })
+
+    event.shaped('refurbished_furniture:azalea_hedge', [
+        '   ',
+        'LLL',
+        'LLL'
+    ], {
+        L: 'minecraft:azalea_leaves',
+    })
+    
 
 
 })
