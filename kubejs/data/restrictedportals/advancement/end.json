@@ -80,6 +80,14 @@
             "type": "irons_spellbooks:fire_boss"
           }
         }
+      },
+      "killed_scylla": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "cataclysm:scylla"
+          }
+        }
       }
     },
     "requirements": [
@@ -92,7 +100,8 @@
       ["killed_warden"],
       ["killed_wither"],
       ["killed_dead_king"],
-      ["killed_fire_boss"]
+      ["killed_fire_boss"],
+      ["killed_scylla"]
     ],
     "rewards": {
         "function": "kubejs:end"
