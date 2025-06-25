@@ -87,6 +87,11 @@
 - Jumbo Furnace 5.0.0.7 → 5.0.0.8  
 - Moderately Enough Effect Descriptions 1-6.9 → 1-7.0  
 </details>
+<details>
+<summary><h3>Known Issues</h3></summary>
+
+- Same issues from the previous version
+</details>
 </details>
 
 <details>
