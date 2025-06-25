@@ -34,6 +34,7 @@ ServerEvents.tags('entity_type', event => {
         "cataclysm:scylla",
         "cataclysm:clawdian",
         "irons_spellbooks:dead_king",
+        "irons_spellbooks:dead_king_corpse",
         "irons_spellbooks:fire_boss"
     ])
 
