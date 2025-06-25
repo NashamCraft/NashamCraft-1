@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
 
   replaceInputID('irons_spellbooks:arcane_anvil', 'minecraft:diamond', 'minecraft:netherite_ingot')
   replaceInputID('irons_spellbooks:diamond_spell_book', 'minecraft:diamond', 'minecraft:netherite_scrap')
+  replaceInputID('irons_spellbooks:diamond_spell_book', 'minecraft:enchanted_book', 'irons_spellbooks:chained_book')
   replaceInputID('irons_spellbooks:inscription_table', 'minecraft:book', 'minecraft:enchanted_book')
 
   replaceInputID('buildinggadgets2:gadget_building', 'minecraft:lapis_lazuli', 'mekanism:ultimate_control_circuit')
