@@ -7,4 +7,6 @@ ServerEvents.recipes(event =>{
         'cataclysm:black_steel_hoe',
         'cataclysm:black_steel_pickaxe']
     )
+
+    event.blasting('4x minecraft:gold_ingot', 'minecraft:bell')
 })
