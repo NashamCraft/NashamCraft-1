@@ -12,6 +12,8 @@
     "biome.incendium.weeping_valley": "Weeping Valley",
     "biome.incendium.withered_forest": "Withered Forest",
 
+    "biome.terralith.cave/infested_caves": "Infested Caves",
+
     "entity.minecraft.villager.ae2:fluix_researcher": "Fluix Researcher",
     "key.ae2.wireless_pattern_access_terminal": "Open Wireless Pattern Access Terminal",
 
@@ -25,5 +27,7 @@
     "block.valhelsia_structures.unlit_torch": "Unlit Torch",
     "block.valhelsia_structures.unlit_soul_torch": "Unlit Soul Torch",
 
-    "entity.minecraft.villager.advancedperipherals:computer_scientist": "Computer Scientist"
+    "entity.minecraft.villager.advancedperipherals:computer_scientist": "Computer Scientist",
+    
+    "entity.irons_spellbooks.catacombs_zombie": "Catacombs Zombie"
 }
