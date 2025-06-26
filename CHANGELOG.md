@@ -23,7 +23,7 @@
 - Bulwark of Flame, Blacksteel Targe and the new Cataclysm shield are now enchantable by Apothic Enchantments' shield enchantments  
 - Drawer Portability Upgrade setting was enabled  
 - Warden is now hidden in the entity radar  
-- Few Endrem eyes were added to loot tables of Iron's Spellbooks and Cataclysm treasure tables  
+- Few Endrem eyes were added to loot tables of Iron's Spellbooks and Cataclysm
 - Block shader properties were added to new blocks from Ars Nouveau  
 - Block shader properties were added to new blocks from Cataclysm
 - New Cataclysm Boss Scylla was added to Apothic Spawners blacklist  
@@ -32,7 +32,8 @@
 - Better Combat weapon attributes were added to new weapons from Cataclysm  
 - To unlock The End, players now must defeat Scylla too  
 - Crafting table on a stick no longer keeps items  
-- Angel Wing duration is increased by 50%, and its cooldown is increased by 30 seconds  
+- Angel Wing duration is increased by 50%, and its cooldown is increased by 30 seconds
+- Guiding Bolt was buffed
 </details>
 <details>
 <summary><h3>Mods Updated</h3></summary>
