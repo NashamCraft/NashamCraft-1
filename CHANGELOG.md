@@ -1,6 +1,12 @@
 # Changelogs
 
 <details>
+<summary><h2>1.1.2b</h2></summary>
+
+- Added missing Simple Discord Rich Presence config file
+</details>
+
+<details>
 <summary><h2>1.1.1b</h2></summary>
 <details>
 <summary><h3>Recipe Changes</h3></summary>
