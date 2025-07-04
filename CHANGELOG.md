@@ -1,7 +1,7 @@
 # Changelogs
 
 <details>
-<summary><h2>1.1.2b</h2></summary>
+<summary><h2>1.1.2</h2></summary>
 
 - Added missing Simple Discord Rich Presence config file
 </details>
